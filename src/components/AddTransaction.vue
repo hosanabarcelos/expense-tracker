@@ -7,17 +7,17 @@
     </div>
     <div class="form-control">
       <label for="amount"
-        >Valor <br />
+        >Qual o valor? <br />
       </label
       >
       <input
         type="text"
         id="amount"
-        placeholder="Adicione o valor"
+        placeholder="Adicione um valor comum ou negativo"
         v-model="amount"
       />
     </div>
-    <button class="btn">Nova transação</button>
+    <button class="button">Nova transação</button>
   </form>
 </template>
 
